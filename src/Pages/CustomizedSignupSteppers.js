@@ -15,10 +15,10 @@ import Typography from "@material-ui/core/Typography";
 
 import Container from "@material-ui/core/Container";
 import Paper from "@material-ui/core/Paper";
-// import Grid from "@material-ui/core/Grid";
-// import Box from "@material-ui/core/Box";
-// import Divider from "@material-ui/core/Divider";
-// import { useHistory } from "react-router-dom";
+import Grid from "@material-ui/core/Grid";
+import Box from "@material-ui/core/Box";
+import Divider from "@material-ui/core/Divider";
+import { useHistory } from "react-router-dom";
 import AppleIcon from "@material-ui/icons/Apple";
 import AndroidIcon from "@material-ui/icons/Android";
 import PAycruiserMobile from "../assets/PAycruiserMobile.png";
