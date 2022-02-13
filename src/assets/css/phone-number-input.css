@@ -1,0 +1,38 @@
+.react-tel-input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+  border-color: #d2d2d2 !important;
+  border-width: 1px !important;
+  width: 100%;
+}
+
+.react-tel-input:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  transform: scaleX(0);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  border-bottom: 2px solid #9c27b0;
+  pointer-events: none;
+}
+
+.react-tel-input:focus-within .react-tel-input:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  transform: scaleX(1);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  border-bottom: 2px solid #9c27b0;
+  pointer-events: none;
+}
+.react-tel-input:focus-within {
+  border-bottom: 2px solid #9c27b0 !important;
+}
+.react-tel-input input,
+.react-tel-input .flag-dropdown {
+  border: 0 !important;
+  background-color: transparent !important;
+}

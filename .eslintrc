@@ -1,0 +1,16 @@
+{
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "object-curly-spacing": "off",
+        "linebreak-style": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+    },
+    // "extends": [
+    //     "react-hooks"
+    //   ],
+    "plugins": ["react", "react-hooks",]
+
+}
